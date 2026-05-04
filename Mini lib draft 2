@@ -1,0 +1,24 @@
+if choice == "1":
+        print("\nCURRENT BOOKS:")
+        for book, info in library.items():
+            print(f" - {book}")
+            print(f"   Status: {info['status']}")
+            print(f"   Description: {info['description']}")
+
+    elif choice == "2":
+        print("\n---Add a Book---")
+        title = input("Book title: ")
+        desc = input("Book description: ")
+        library[title] = {"status": "Available", "description": desc}
+        print(f"'{title}' is added to the library.")
+
+    elif choice == "3":
+        print("\n---BORROW A BOOK---")
+        print("AVAILABLE BOOKS:")
+        available_books = [book for book, info in library.items() if info["status"] == "Available"]
+
+        if available_books:
+            for book in available_books:
+                print(f" - {book}")
+
+            title = input("Book title: ")
