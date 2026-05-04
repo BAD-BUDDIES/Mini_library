@@ -1,0 +1,18 @@
+# Bad Buddies Mini Library 
+library = {
+    "The Song of Achilles": {"status": "Available", "description": "A tragic love story between Achilles and Patroclus set in Greek mythology."},
+    "No Longer Human": {"status": "Available", "description": "A dark novel about alienation and the struggle of fitting into society."},
+    "The Alchemist": {"status": "Borrowed", "description": "A philosophical story about following your dreams and personal legend."}
+}
+print("Welcome to Bad Buddies Mini Library!")
+
+while True:
+    print("\n---- MENU ----")
+    print("1. View Books")
+    print("2. Add Book")
+    print("3. Borrow Book")
+    print("4. Return Book")
+    print("5. Delete Book")
+    print("6. Exit")
+
+    choice = input("\nOption(1-6): ")
