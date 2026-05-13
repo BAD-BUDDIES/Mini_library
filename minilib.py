@@ -2,7 +2,8 @@
 library = {
     "The Song of Achilles": {"status": "Available", "description": "A tragic love story between Achilles and Patroclus set in Greek mythology."},
     "No Longer Human": {"status": "Available", "description": "A dark novel about alienation and the struggle of fitting into society."},
-    "The Alchemist": {"status": "Borrowed", "description": "A philosophical story about following your dreams and personal legend."}
+    "The Alchemist": {"status": "Borrowed", "description": "A philosophical story about following your dreams and personal legend."},
+    "The Great Gatsby": {"status": "Available", "description": "A classic novel about the American Dream and the decadence of the Jazz Age."}
 }
 print("Welcome to Bad Buddies Mini Library!")
 
